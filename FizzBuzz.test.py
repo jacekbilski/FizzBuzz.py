@@ -18,6 +18,9 @@ class FizzBuzzTest(unittest.TestCase):
     def test_5(self):
         self.assertEqual(fizz_buzz(range(1, 6))[4], "buzz")
 
+    def test_15(self):
+        self.assertEqual(fizz_buzz(range(15, 16))[0], "fizzbuzz")
+
 
 if __name__ == '__main__':
     unittest.main()
